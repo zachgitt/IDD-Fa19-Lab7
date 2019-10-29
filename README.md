@@ -26,6 +26,9 @@ The only code edited was in public/client.js where the following line was added 
 
 ## Part C. Make it your own
 
-**a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
+**a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.** <br>
+I wanted to test to see if there was a race condition between the Virtual Button on the webpage vs. the Physical Button on the breadboard. To test which was faster I created a notification depending on which button was responsible for taking the picture as shown in my video.
 
-**b. Upload a video of your working modified project**
+**b. Upload a video of your working modified project** <br>
+[![Thumb](https://github.com/zachgitt/IDD-Fa19-Lab7/blob/master/race.png)](https)
+
