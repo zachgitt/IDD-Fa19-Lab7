@@ -19,6 +19,8 @@
 After using diff and comparing the two files, I found that to enable the webcam, a data structure of options are defined and used to create a Webcam object. Additionally, when the socket hears the 'takePicture' event it creates an image and saves it and sends it to the browser.
 
 **b. Include a video of your working video doorbell**
+The only code edited was in public/client.js where the following line was added in the case 'light'.
+`socket.emit('takePicture')`
 [![Thumb](https://github.com/zachgitt/IDD-Fa19-Lab7/blob/master/web_thumb.png)](https://youtu.be/59-ZnLk0sHs)
 
 
