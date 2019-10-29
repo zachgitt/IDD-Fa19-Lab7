@@ -11,7 +11,7 @@
 ## Part A. HelloYou from the Raspberry Pi
 
 **a. Link to a video of your HelloYou sketch running.**
-[![Thumb](https://github.com/zachgitt/IDD-Fa19-Lab7/blob/master/thumb.png)](https://youtu.be/)
+[![Thumb](https://github.com/zachgitt/IDD-Fa19-Lab7/blob/master/thumb.png)](https://youtu.be/kX_qeujrImk)
 
 
 ## Part B. Web Camera
