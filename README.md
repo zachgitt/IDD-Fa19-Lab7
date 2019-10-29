@@ -19,7 +19,7 @@ The only code edited was in public/client.js where the following line was added 
 
 ## Part C. Make it your own
 
-**a.** <br>
+**a.**
 I wanted to test to see if there was a race condition between the Virtual Button on the webpage vs. the Physical Button on the breadboard. To test which was faster I created a notification depending on which button was responsible for taking the picture as shown in my video.
 
 **b. Upload a video of your working modified project** <br>
