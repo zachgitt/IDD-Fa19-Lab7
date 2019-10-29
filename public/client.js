@@ -27,6 +27,7 @@ function ledOFF() {
 //-- Addition: Forward the `Take a picture` button-press to the webserver.
 function takePicture(){
   socket.emit('takePicture');
+  alert('Virtual Button Wins!');
 }
 
 //-- Addition: This function receives the new image name and applies it to html element.
@@ -42,7 +43,9 @@ socket.on('server-msg', function(msg) {
   switch (msg) {
     case "light":
       document.body.style.backgroundColor = "white";
-      console.log("white")
+      console.log("white");
+      socket.emit('takePicture');
+      alert('Physical Button Wins!');
       break;
     case "dark":
       document.body.style.backgroundColor = "black";
