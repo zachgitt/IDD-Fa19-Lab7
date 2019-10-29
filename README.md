@@ -15,7 +15,7 @@
 
 
 ## Part B. Web Camera
-**a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)**
+**a. Compare `helloYou/server.js` and `IDD-Fa18-Lab7/pictureServer.js`. What elements had to be added or changed to enable the web camera? (Hint: It might be good to know that there is a UNIX command called `diff` that compares files.)** <br>
 After using diff and comparing the two files, I found that to enable the webcam, a data structure of options are defined and used to create a Webcam object. Additionally, when the socket hears the 'takePicture' event it creates an image and saves it and sends it to the browser.
 
 **b. Include a video of your working video doorbell**
