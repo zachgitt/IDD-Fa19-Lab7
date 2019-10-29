@@ -20,7 +20,7 @@ The only code edited was in public/client.js where the following line was added 
 ## Part C. Make it your own
 
 **a.**
-I wanted to test to see if there was a race condition between the Virtual Button on the webpage vs. the Physical Button on the breadboard. To test which was faster I created a notification depending on which button was responsible for taking the picture as shown in my video.
+I wanted to test to see if there was a race condition between the Virtual Button on the webpage vs. the Physical Button on the breadboard. To test which was faster I created a notification depending on which button was responsible for taking the picture as shown in my video. If you zoom into the video you can see whether "Virtual Button Wins!" or "Physical Button Wins!". As seeen in the video, the physical button seems to win even when both are pressed almost simultaneously, most likely due to some latency between the client and the server.
 
 **b. Upload a video of your working modified project** <br>
 [![Thumb](https://github.com/zachgitt/IDD-Fa19-Lab7/blob/master/race.png)](https://youtu.be/ZkSpn88RAd4)
